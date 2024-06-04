@@ -1,0 +1,208 @@
+body {
+    background-color: #0f0217;
+    color: #fa14e3;
+    font-family: Verdana;
+    box-sizing: border-box;
+    
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
+  
+  img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+  }
+  
+  button {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    border: 5px;
+    border-style: solid;
+    width: 60%;
+    font-size: 30px;
+  }
+  /*~~~~~~~~~~~~~~Classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  
+  .header {
+      width: 98%;
+      background-color: #7105ff;
+      color: #ff0dd3;
+      border: 3px;
+      border-style: solid;
+      text-align: center;
+      margin: -8px;
+      top: 8px;
+      position: fixed;
+      z-index: 1;
+      
+      
+      
+      
+    }
+  
+  /*Container class for blocks*/
+  .container {
+      width: 98%;
+      border: 5px;
+      border-radius: 5px;
+      border-style: solid;
+      position: relative;
+      margin: 25px auto;
+      overflow: auto;
+      text-align: center;
+      box-sizing: border-box;
+      
+      
+    }
+  /*#### HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ####  */
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~#ID Details~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  
+  /*pink Div*/
+  #pinkDiv {
+    color: #fa14e3;
+    background-color: #1c041a;
+    padding-bottom: 20px;
+  }
+  
+  #hotPinkDiv {
+    color: #e60575;
+    background-color: #210413;
+  }
+  
+  #purpleDiv {
+    color: #a60dff;
+    background-color: #160321;
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #blueDiv {
+    color: #230aff;
+    background-color: #060321;
+  }
+  
+  
+  #liteBlueDiv {
+    color: #12efff;
+    background-color: #011314;
+    padding-bottom: 20px;
+  }
+  
+  
+  #greenDiv {
+    color: #0dff76;
+    background-color: #021f0f;
+  }
+  
+  
+  /*~~~~~~~~~~~~~~~~~~~~~~TASKBAR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #headerimg {
+    width: 80%;
+    float: right;
+    padding-right: 5px;
+    padding-top: 2px;
+    z-index: 2;
+  }
+  
+  #sideBarbtn {
+   width: 10%;
+   font-size: 0px;
+   border: 2px;
+   padding: 20px;
+   margin-top: 3px;
+   margin-left: 10px;
+   background-image: url('Images/Btns/Sdbrbtn.png');
+   border-style: none;
+   border-radius: 0px;
+   color: #ff0dd3;
+   background-color: transparent;
+   background-size: 100%;
+   float: left;
+  }
+  
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~PROFILE BLOCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*Headers*/
+  #phTxt1 {
+    color:#e414ff;
+  }
+  
+  #phTxt2 {
+    color: #e414ff;
+    text-align: center;
+    clear: right;
+  }
+  #phTxt3 {
+    color: #e414ff;
+    text-align: center;
+    clear: right;
+  }
+  /*pfp div*/
+  #pfp {
+    padding: 0px 0px 40px 8px;
+    width: 80%;
+  }
+  /*profile text container*/
+  #profileC {
+    clear: left;
+    width: 90%;
+    color: #ff21bc;
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+    text-align: center;
+  }
+  .pTxt {
+    color: #e60575;
+  }
+  /*academic interest list*/
+  .plist {
+    color: #ff21bc;
+    font-size: 14px;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~A.T.C Block~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #ataHTxt1 {
+    color:#ff2e9a;
+  }
+  #ataTxt1 {
+    color: #ffd1f6;
+    padding: 5px;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ask Box~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #askbxtxt {
+    color: #57f4ff; 
+  }
+  #askbxBtn {
+    background-color: #82fff0;
+    color: #4580ff;
+    
+    
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~Art Block~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #artBtn {
+    background-color: #ffa6e7;
+    color: #ff14c0;
+  }
+  
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  /*WIP Sign*/
+  #wip {
+    color: yellow;
+      
+    
+    }
+    
+  /*#### HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ####*/
+  

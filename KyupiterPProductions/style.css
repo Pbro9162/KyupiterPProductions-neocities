@@ -1,0 +1,282 @@
+body {
+    background-color: #0c011a;
+    
+    background-size: cover;
+    color: #fa14e3;
+    font-family: Verdana;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    position: inherit;
+  }
+  
+  button {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    border: 3px;
+    
+    width: 158px;
+    font-size: 20px;
+    margin: auto;
+    color: #bff8ff;
+    background-image: linear-gradient(rgb(255, 0, 234), rgb(79, 19, 209));
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(rgb(134, 237, 255), rgb(0, 26, 255));
+  }
+  button:active {
+    background-image: linear-gradient(rgb(187, 103, 255), rgb(57, 6, 187));
+    color: rgb(1, 221, 255);
+  }
+  
+  /*~~~~~~~~~~~~~~Classes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  
+  .header {
+      width: 1000px;
+      height: 120px;
+      z-index: 1;
+      margin: auto;
+      padding-bottom: 0px;
+      
+      
+    }
+  .header img {
+      object-fit: fill;
+    }
+  
+  
+  /*#### HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ######## HOME PAGE ####  */
+  /*~~~~~~~WRAPPERS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  .wrapper {
+    margin: auto;
+    color: rgb(90, 72, 255);
+    width: 1150px;
+    height: 1000px;
+    border: 6px;
+    border-style: solid;
+    background-color: #1b083e;
+    display: grid;
+    grid-template-columns: 20% 29.4% 29.4% 20%;
+    grid-template-rows: 5.5% 5.6% 15% 15% 15% 15% 15% 15%;
+    
+    column-gap: 5px;
+    padding: 5px;
+    
+  }
+  
+
+
+
+  .wrapper div:nth-child(1) { /*Left Column*/
+    grid-column: 1 / 2;
+    grid-row: 3 / 6;
+    background-color: #2e094e;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    color: #ff1ef0;
+  }
+  .wrapper div:nth-child(1) h1 {
+    font-size: 25px;
+    font-variant: small-caps;
+    display: inline-flex;
+    text-decoration: underline; 
+    letter-spacing: 2px;
+    margin-top: 5px;
+  }
+  .wrapper div:nth-child(1) h1 img {
+    padding: 5px;
+  }
+  .wrapper div:nth-child(1) p {
+    font-size: 15.5px;
+    word-spacing: 4px;
+    margin-top: -2px;
+    padding: 2px;
+  }
+  
+
+
+
+  .wrapper div:nth-child(2) { /*Left Column*/
+        grid-column: 1 / 2;
+        grid-row: 6 / 7;
+        background-color: #32ff43;
+    }
+  .wrapper div:nth-child(2) img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+    .wrapper div:nth-child(3) { /*Lower Right Column*/
+        grid-column: 4 / 5;
+        grid-row: 4 / 7;
+        background-color: #2e094e;
+        text-align: center;
+        color: #ff1eb4;
+    }
+        .wrapper div:nth-child(3) h2 {
+            font-size: 15px;
+            font-variant: small-caps;
+            display: inline-flex;
+            text-decoration: underline;
+
+        }
+        .wrapper div:nth-child(3) h4 {
+            font-size: 13px;
+            display: inline-flex;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-top: 5px;
+            
+      }
+        .wrapper div:nth-child(3) a {
+            font-size: 14px;
+            margin-top: -10px;
+            padding: 2px;
+            display: inline-flex;
+            text-decoration: none;
+            color: #ff1eb4;
+            padding-bottom: 6px;
+        }
+         .wrapper div:nth-child(3) a:hover {
+            color: #1ef0ff;
+            text-decoration: underline;
+         }
+         .wrapper div:nth-child(3) a:visited {
+            color: #f42373;
+         }
+         .wrapper div:nth-child(3) a:visited:hover {
+          color: #1ef0ff;
+       }
+        .wrapper div:nth-child(3) #pxl {
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        .wrapper div:nth-child(3) #frcle {
+            width: 50%;
+            float: left;
+        }
+        .wrapper div:nth-child(3) #chlchk {
+            width: 50%;
+        }
+
+    
+    
+
+    .wrapper div:nth-child(4) { /*Upper Right Column*/
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+        .wrapper div:nth-child(4) #wtr {
+            width: 100%;
+            height: 87%;
+        }
+        .wrapper div:nth-child(4) #bbl {
+            width: 100%;
+            
+        }
+
+
+
+    
+    .wrapper div:nth-child(5) { /*Content Block*/
+        grid-column: 2 / 4;
+        grid-row: 3 / 8;
+        
+    }
+      .wrapper div:nth-child(5) iframe {
+        width: 100%;
+        height: 100%;
+        
+      }
+
+
+
+
+
+    
+    .wrapper div:nth-child(6) { /*Nav Bar*/
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+        background-color: #1b083e;
+        padding: 5px;
+    }
+
+
+
+
+
+    
+    
+    .wrapper div:nth-child(7) { /*Marquee*/
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+        background-color: #1b083e;
+    }
+
+        .wrapper div:nth-child(7) img {
+          float: left;
+        }
+
+
+
+
+
+
+
+    .wrapper div:nth-child(8) { /*Blinkies*/
+      
+      grid-column: 1 / 2;
+      grid-row: 7 / 8;
+
+    }
+        .wrapper div:nth-child(8) img {
+          width: 100%;
+        }
+    
+
+
+    .wrapper div:nth-child(9) { /*Update Log*/
+      margin-bottom: -4px;
+      grid-column: 4 / 5;
+      grid-row: 7 / 8;
+      color: #1fb5d6;
+      background-color: #10032b;
+      border-radius: 5px;
+      border-style: solid;
+      overflow: auto;
+      scrollbar-width: thin;
+      scrollbar-color: #ff1ec3 #10032b;
+      padding-left: 5px;
+
+    }
+        .wrapper div:nth-child(9) h2 {
+          text-decoration: underline;
+          text-align: center;
+          margin-top: 5px;
+          font-size: 16px;
+        }
+        .wrapper div:nth-child(9) p {
+          font-size: 13px;
+          margin-top: -5px;
+          padding-left: 5px;
+          line-height: 1.3;
+        }
+        
